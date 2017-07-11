@@ -6,7 +6,15 @@ public class Person {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    
+    public void getFirstName(){
+        return firstName;
+    }
 
+    public void getLastName(){
+        return lastName;
+    }
+    
     public void sayHello() {
         System.out.println("Hello " + firstName + " " + lastName);
     }
